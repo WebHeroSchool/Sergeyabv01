@@ -12,9 +12,11 @@ div, h1 {
   width: 80%
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 195px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 128px;
+    margin-top: -8px;
+    margin-right: -7px;
 }
 .logo {
   position: relative;
@@ -43,6 +45,7 @@ div, h1 {
 .menu {
   display: flex;
   align-items: center;
+  margin-right: 15px;
 }
 .menu__item {
   position: relative;
@@ -92,9 +95,10 @@ div, h1 {
   margin-right: 0;
 }
 .main {
-  padding: 0 63% 200px 0;
-  background: top right no-repeat url(img/mainimg.svg);
-  background-size: 770px 657px;
+    align-content: center;
+    padding: 76px 63% 131px 0px;
+    background: center right no-repeat url(img/mainimg.svg);
+    background-size: 770px 657px;
 }
 .main__title {
   font: 66px/87px pt_serifbold, arial, helvetica, sans-serif;
