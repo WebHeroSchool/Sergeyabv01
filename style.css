@@ -35,27 +35,19 @@ body {
 
 .logo__circle_color_dark-blue {
   background: #0056EC;
-  repeat: repeat-y;
-  animation: circle-dark-blue 3s ease infinite;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
+  animation: circle-dark-blue 3s ease;
 }
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
-  repeat: repeat-x;
-  animation: circle-color-blue 3s ease infinite;
-  animation-delay: 0s;
- animation-iteration-count: 1;
-
+  animation: circle-color-blue 3s ease;
 }
 
 @keyframes circle-dark-blue {
   0% { top: 30%;
    }
-
   100% { top: 50%;
    }
 }
@@ -63,7 +55,6 @@ body {
 @keyframes circle-color-blue {
   0% { left: 10%;
    }
-
   100% { left: 4%;
    }
 }
