@@ -35,12 +35,28 @@ body {
 
 .logo__circle_color_dark-blue {
   background: #0056EC;
+  animation: circle-dark-blue 3s ease;
 }
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
+  animation: circle-color-blue 3s ease;
+}
+
+@keyframes circle-dark-blue {
+  0% { top: 30%;
+   }
+  100% { top: 50%;
+   }
+}
+
+@keyframes circle-color-blue {
+  0% { left: 10%;
+   }
+  100% { left: 4%;
+   }
 }
 
 .menu {
