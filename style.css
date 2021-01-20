@@ -17,7 +17,7 @@ body {
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 24px/32px "PT Serif", Arial, Helvetica, Sans-serif;
+  font: bold 24px/32px "pt_serif", Arial, Helvetica, Sans-serif;
   align-items: center;
   color: #000;
 }
@@ -35,12 +35,28 @@ body {
 
 .logo__circle_color_dark-blue {
   background: #0056EC;
+  animation: circle-dark-blue 3s ease;
 }
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
+  animation: circle-color-blue 3s ease;
+}
+
+@keyframes circle-dark-blue {
+  0% { top: 30%;
+   }
+  100% { top: 50%;
+   }
+}
+
+@keyframes circle-color-blue {
+  0% { left: 10%;
+   }
+  100% { left: 4%;
+   }
 }
 
 .menu {
@@ -167,7 +183,7 @@ body {
 
 .main__title {
   margin: 0 0 37px 0;
-  font: bold 66px/87px "PT Serif", Arial, Helvetica, Sans-serif;
+  font: bold 66px/87px "pt_serif", Arial, Helvetica, Sans-serif;
   padding-top: 72px;
   color: #000;
 }
@@ -215,7 +231,7 @@ body {
   .main__title {
     margin-bottom: 41px;
     padding-top: 18px;
-    font: bold 50px/65px "PT Serif", Arial, Helvetica, Sans-serif;
+    font: bold 50px/65px "pt_serif", Arial, Helvetica, Sans-serif;
   }
   .main__description {
     margin-bottom: 41px;
@@ -263,7 +279,7 @@ body {
   .main__title {
     margin-bottom: 34px;
     padding-top: 30px;
-    font: bold 30px/39px "PT Serif", Arial, Helvetica, Sans-serif;
+    font: bold 30px/39px "pt_serif", Arial, Helvetica, Sans-serif;
   }
   .main__description {
     margin: 0 0 25px 0;
